@@ -1,0 +1,64 @@
+
+ .blanc {
+    color: white;
+            }
+ body {
+    background-color:lightskyblue;
+    background-image:url(http://www.keepalbanyboring.com/wp-content/uploads/2014/02/sunra.jpg);
+
+}
+ h1 {
+    color : slategrey;
+    font-family: Futura, sans-serif;
+    font-size: 40px
+            }
+ h2 {
+    color : slategrey;
+    font-family: Futura , sans-serif;
+    font-size: 30;
+            }
+h3 {
+    font-family: Futura Condensed Medium, sans-serif;
+    font-size: 20 ;
+}
+ p{
+     font-family: sans-serif
+               ;
+            }
+img {
+    width: 200px;
+
+            }
+
+a {
+    color: black ;
+}
+
+#principal {
+    margin-left: 620px ;
+    display : flex ;
+    align-items :flex-end;
+    flex-direction: column-reverse;
+    justify-content: center ;
+    align-content :flex-start;
+}
+
+#exemples {
+    text-align : right;
+    font-size: 12px ;
+    line-height: 50% ;
+    padding: 3px 20px;
+    width: 300px ;
+    -moz-border-radius:7px;
+-webkit-border-radius:7px ;
+}
+
+#presentation {
+    text-align:justify;
+    margin-left:100px ;
+    padding: 5px 20px;
+    background-color: rgba(245, 245, 245, 0.3);
+    margin : 20px ;
+    flex-shrink: 6px ;
+
+}
